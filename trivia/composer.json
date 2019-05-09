@@ -1,0 +1,22 @@
+{
+  "name": "legacy_workshop",
+  "description": "Project for PHP legacy code refactoring workshop",
+  "type": "Project",
+  "autoload": {
+    "psr-4": {
+      "workshop\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.5"
+  },
+  "license": "none",
+  "authors": [
+    {
+      "name": "Arnas Vinciunas",
+      "email": "arnas.vinciunas@vism.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
