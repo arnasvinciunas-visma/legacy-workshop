@@ -18,5 +18,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {}
+  "require": {},
+  "config": {
+    "disable-tls": true,
+    "secure-http": false
+  }
 }
